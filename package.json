@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap-icons": "^1.11.2",
+    "dotenv": "^16.3.1",
+    "espress": "^0.0.0",
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "nodemailer": "^6.9.5",
+    "smooth-scroll": "^16.1.3"
+  }
+}
