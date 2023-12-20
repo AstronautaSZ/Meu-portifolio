@@ -12,10 +12,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.0"
-  },
-  "scripts":{
-    "build":"portfólio-scripts",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
   }
 }
