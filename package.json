@@ -3,7 +3,8 @@
     "node": "18"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node servidor.js"
+
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
