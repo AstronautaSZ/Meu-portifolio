@@ -1,5 +1,10 @@
 {
-  "homepage": "https://AstronautaSZ.github.io/Meu-portfólio",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "bootstrap-icons": "^1.11.2",
