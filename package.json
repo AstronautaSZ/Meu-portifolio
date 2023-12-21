@@ -3,7 +3,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node servidor.js"
+    "start": "npm install"
 
   },
   "dependencies": {
