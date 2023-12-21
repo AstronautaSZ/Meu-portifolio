@@ -11,7 +11,7 @@ app.use(express.json())
 const { sendTestEmail } = require("./Email");
 
 app.get("/", (req, res) => {
-  res.send("Run /send-email to send test email");
+  res.send("Aviso: Run /send-email to send test email ");
 });
 const SENDER_EMAIL_ID = "EMAIL_ID";
 
