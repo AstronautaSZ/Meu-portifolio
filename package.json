@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "18"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node servidor.js"
