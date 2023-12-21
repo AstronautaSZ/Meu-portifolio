@@ -5,7 +5,8 @@ const btn_enviar=document.getElementById('btn_enviar')
 const ideia=document.getElementById('ideia');
 
 btn_enviar.addEventListener('click', (envet)=>{
-  fetch(`https://meu-portifolio-vert-five.vercel.app/send/${email.value}/${ideia.value}/${nome.value}`)
+  const servidor='https://meu-portifolio-vert-five.vercel.app';
+  fetch(`${servidor}/send/${email.value}/${ideia.value}/${nome.value}`)
   .then(res=>{
     if(res.status==200){
       alert(res.status)
