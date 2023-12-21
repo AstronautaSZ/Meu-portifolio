@@ -5,12 +5,12 @@ const btn_enviar=document.getElementById('btn_enviar')
 const ideia=document.getElementById('ideia');
 
 btn_enviar.addEventListener('click', (envet)=>{
-  fetch(`/send/${email.value}/${ideia.value}/${nome.value}`)
+  fetch(`https://meu-portifolio-vert-five.vercel.app/send/${email.value}/${ideia.value}/${nome.value}`)
   .then(res=>{
     if(res.status==200){
-      alert(res.statusText)
+      alert(res.status)
     }else{
-        alert(res.statusText)
+        alert(res.status)
     }
   })
     
