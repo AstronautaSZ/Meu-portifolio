@@ -9,8 +9,10 @@ btn_enviar.addEventListener('click', (envet)=>{
   .then(res=>{
     if(res.status==200){
       alert(res.status)
+      console.log('resoltou')
     }else{
         alert(res.status)
+        console.log('nao')
     }
   })
     
