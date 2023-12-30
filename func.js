@@ -7,18 +7,19 @@ const ideia=document.getElementById('ideia');
 btn_enviar.addEventListener('click',async (envet)=>{
   envet.preventDefault();
   
-  const Dados={
+ const  Dados={
   email_clinent:email.value,
   nome:nome.value,
   ideia:ideia.value
   }
   const cabecalho = {
     method: 'post',
-    body: Dados.email_clinent
+    body: JSON.stringify(Dados),
+    headers: {"Content-type": "application/json; charset=UTF-8"}
   }
 
   const servidor='https://api-email-five.vercel.app';
- await fetch(`${servidor}/send`,cabecalho)
+  fetch(`${servidor}/send`,cabecalho)
   
   .then(res=>{
     if(res.status==200){
