@@ -1,4 +1,4 @@
-import { Cxmsg } from "./utills/Cxmsg.js"
+
 const email=document.getElementById('email')
 const nome=document.getElementById('nome')
 const btn_enviar=document.getElementById('btn_enviar')
@@ -25,7 +25,7 @@ btn_enviar.addEventListener('click',async (envet)=>{
     if(res.status==200){
       alert("Email envia do com sucesso")
     }else{
-      
+      alert("Erro")
     }
 })
 
