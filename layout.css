@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    overflow-x: hidden !important;
-}
+html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
 .conteiner {
     margin: 0 auto;
     padding: 2rem;
