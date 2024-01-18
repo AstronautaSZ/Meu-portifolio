@@ -22,12 +22,12 @@ btn_enviar.addEventListener('click',async (envet)=>{
     headers: {"Content-type": "application/json; charset=UTF-8"}
   }
 
-  const servidor='https://api-email-five.vercel.app';
+  const servidor='https://api-email-six.vercel.app';
   fetch(`${servidor}/send`,cabecalho)
   
   .then(res=>{
     if(res.status==200){
-      alert("Email envia do com sucesso")
+      alert("Email envia do com sucesso") 
       resetar();
     }else{
       alert("Erro")
