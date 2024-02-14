@@ -143,6 +143,9 @@ div.item-projecto >img{
 .sec-precos input,.sec-precos textarea{
     width: 100%;
 }
+.ocultar{
+    display: none;
+}
 @media screen and (min-width:1280px){
     .conteiner{
         width: 1280px;
