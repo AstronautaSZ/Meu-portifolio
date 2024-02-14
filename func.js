@@ -4,13 +4,12 @@ const nome=document.getElementById('nome')
 const btn_enviar=document.getElementById('btn_enviar')
 const ideia=document.getElementById('ideia');
 let LGButton=document.getElementById('LGButton')
-const spinner=document.getElementById('animacao')
+
 const resetar=()=>{
   email.value="";
   nome.value="";
   ideia.value="";
   LGButton.innerText="Enviado"
-  spinner.classList.add("ocultar")
 }
 btn_enviar.addEventListener('click',async (envet)=>{
   envet.preventDefault();
@@ -19,7 +18,6 @@ btn_enviar.addEventListener('click',async (envet)=>{
 
   else{
   LGButton.innerText="A enviar..."
-  spinner.classList.remove("ocultar")
 
  const  Dados={
   email_clinent:email.value,
