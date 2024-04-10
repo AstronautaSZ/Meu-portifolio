@@ -116,7 +116,7 @@ header {
     grid-gap:1.5rem;
     grid-template-areas: 
     "titulo titulo"
-    "projecto1 projecto2";
+    "projecto1 projecto2 ";
 }
 .sec-projectos h2{
     grid-area: titulo;
